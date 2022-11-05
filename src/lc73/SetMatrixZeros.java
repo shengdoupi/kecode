@@ -1,4 +1,4 @@
-package setmatrixzeros;
+package lc73;
 
 /**
  * @author zhouke <zhouke1998301@sjtu.edu.cn>
@@ -6,6 +6,9 @@ package setmatrixzeros;
  */
 public class SetMatrixZeros {
 
+        /**
+        空间复杂度不为O(1)的解法，两个标记数组；
+         */
         public void setZeroes(int[][] matrix) {
             int n = matrix.length;
             int m = matrix[0].length;
@@ -27,5 +30,5 @@ public class SetMatrixZeros {
                 }
             }
         }
-    
+
 }
