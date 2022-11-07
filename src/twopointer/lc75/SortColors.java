@@ -3,6 +3,8 @@ package twopointer.lc75;
 /**
  * @author zhouke <zhouke1998301@sjtu.edu.cn>
  * Created on 2022-11-07
+ * 时间：O(n)，n为数组大小
+ * 空间：O(1)，两个辅助指针，置换均为原地
  */
 public class SortColors {
     public void sortColors(int[] nums) {

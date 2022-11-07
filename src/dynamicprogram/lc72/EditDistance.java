@@ -4,6 +4,8 @@ package dynamicprogram.lc72;
  * @author zhouke <zhouke1998301@sjtu.edu.cn>
  * Created on 2022-11-03
  * leetcode 72 hard
+ * 时间：O(n*m), n 和 m分别为两个单词的长度
+ * 空间：O(n*m), 需要二维dp数组
  */
 public class EditDistance {
     public int minDistance(String word1, String word2) {

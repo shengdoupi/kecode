@@ -7,6 +7,7 @@ package matrix.lc73;
 public class SetMatrixZerosTwo {
     /**
      * 空间复杂度O(1)的解法，使用原矩阵的第一行和第一列进行辅助标记，同时使用两个标记变量对第一行和第一列的初始情况进行标记；
+     * 时间：O(n * m)
      * @param matrix
      */
     public void setZeroes(int[][] matrix) {

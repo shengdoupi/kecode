@@ -8,6 +8,8 @@ public class SetMatrixZeros {
 
         /**
         空间复杂度不为O(1)的解法，两个标记数组；
+         时间：O(n * m), n 为矩阵行、列数
+         空间：O(n + m)
          */
         public void setZeroes(int[][] matrix) {
             int n = matrix.length;
