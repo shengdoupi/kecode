@@ -1,4 +1,4 @@
-package lc72;
+package dynamicprogram.lc72;
 
 /**
  * @author zhouke <zhouke1998301@sjtu.edu.cn>

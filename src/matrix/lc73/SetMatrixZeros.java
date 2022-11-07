@@ -1,4 +1,4 @@
-package lc73;
+package matrix.lc73;
 
 /**
  * @author zhouke <zhouke1998301@sjtu.edu.cn>
